@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+
+</head>
+<body>
+<!--<nav class="navbar navbar-expand-sm navbar-dark bg-dark">-->
+<!--    <div class="container">-->
+<!--        <a href="" class="navbar-brand">Logo</a>-->
+<!--        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#mymanu">-->
+<!--            <span class="navbar-toggler-icon"></span>-->
+<!--        </button>-->
+
+<!--        <div class="collapse navbar-collapse" id="mymanu">-->
+<!--            <ul class="navbar-nav ml-auto">-->
+<!--                <li><a href="" class="nav-link">Home</a></li>-->
+<!--                <li><a href="" class="nav-link">About</a></li>-->
+<!--                <li><a href="" class="nav-link">Contract</a></li>-->
+<!--                <li><a href="" class="nav-link" data-toggle="modal" data-target="#model">sign up</a></li>-->
+<!--                <li><a href="" class="nav-link" data-toggle="modal" data-target="#modal"> Register</a></li>-->
+<!--            </ul>-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--</nav>-->
+<!--    <div class="modal fade" data-backdrop="static" data-keyboard="false"  id="modal">-->
+<!--        <div class="modal-dialog modal-dialog-centered modal-scrollbar-measure">-->
+<!--            <div class="modal-content">-->
+<!--                <div class="modal-header">-->
+<!--                    <h3 class="modal-title">Registration Form</h3>-->
+<!--                    <button type="button" class="close" data-dismiss="modal">-->
+<!--                        <span>$times;</span>-->
+<!--                    </button>-->
+<!--                </div>-->
+<!--                <div class="modal-body">-->
+<!--                    <form action="">-->
+<!--                        <div class="form-group row">-->
+<!--                            <label for="name" class="col-md-4 col-form-label">fullname</label>-->
+<!--                            <div class="col-md-8">-->
+<!--                                <input type="text" id="name" class="form-control">-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="form-group row">-->
+<!--                            <label for="email" class="col-md-4 col-form-label">EMAIL</label>-->
+<!--                            <div class="col-md-8">-->
+<!--                                <input type="text" id="email" class="form-control">-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="form-group row">-->
+<!--                            <label for="phone" class="col-md-4 col-form-label">phone</label>-->
+<!--                            <div class="col-md-8">-->
+<!--                                <input type="number" id="phone" class="form-control">-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="form-group row">-->
+<!--                            <label for="password" class="col-md-4 col-form-label">password</label>-->
+<!--                            <div class="col-md-8">-->
+<!--                                <input type="text" id="password" class="form-control">-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="form-group row">-->
+<!--                            <label for="address" class="col-md-4 col-form-label">address</label>-->
+<!--                            <div class="col-md-8">-->
+<!--                                <input type="text" id="address" class="form-control">-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        &lt;!&ndash;                      <div class="form-group row">&ndash;&gt;-->
+<!--                        &lt;!&ndash;                          <label for="submit" class="col-md-4 col-form-label" >submit</label>&ndash;&gt;-->
+<!--                        &lt;!&ndash;                          <div class="col-md-8">&ndash;&gt;-->
+<!--                        &lt;!&ndash;                              <input type="text" id="submit" class="btn btn-outline-warningn btn-block">&ndash;&gt;-->
+<!--                        &lt;!&ndash;                          </div>&ndash;&gt;-->
+<!--                    </form>-->
+
+<!--                </div>-->
+<!--                <div class="modal-footer">-->
+<!--                    <button type="button" class=" btn btn-outline-primary">submit</button>-->
+<!--                    <button type="button" class="btn btn-danger" data-dismiss="">close</button>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--    </div>-->
+
+<!--        <div class="modal fade" data-backdrop="static" data-keyboard="false"  id="modal">-->
+<!--            <div class="modal-dialog modal-dialog-centered modal-scrollbar-measure">-->
+<!--                <div class="modal-content">-->
+<!--                    <div class="modal-header">-->
+<!--                        <h3 class="modal-title">Registration Form</h3>-->
+<!--                        <button type="button" class="close" data-dismiss="modal">-->
+<!--                            <span>$times;</span>-->
+<!--                        </button>-->
+<!--                    </div>-->
+<!--                    <div class="modal-body">-->
+<!--                        <form action="">-->
+<!--                            <div class="form-group row">-->
+<!--                                <label for="name" class="col-md-4 col-form-label">fullname</label>-->
+<!--                                <div class="col-md-8">-->
+<!--                                    <input type="text" id="name" class="form-control">-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="form-group row">-->
+<!--                                <label for="email" class="col-md-4 col-form-label">EMAIL</label>-->
+<!--                                <div class="col-md-8">-->
+<!--                                    <input type="text" id="email" class="form-control">-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="form-group row">-->
+<!--                                <label for="phone" class="col-md-4 col-form-label">phone</label>-->
+<!--                                <div class="col-md-8">-->
+<!--                                    <input type="number" id="phone" class="form-control">-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="form-group row">-->
+<!--                                <label for="password" class="col-md-4 col-form-label">password</label>-->
+<!--                                <div class="col-md-8">-->
+<!--                                    <input type="text" id="password" class="form-control">-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="form-group row">-->
+<!--                                <label for="address" class="col-md-4 col-form-label">address</label>-->
+<!--                                <div class="col-md-8">-->
+<!--                                    <input type="text" id="address" class="form-control">-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            &lt;!&ndash;                      <div class="form-group row">&ndash;&gt;-->
+<!--                            &lt;!&ndash;                          <label for="submit" class="col-md-4 col-form-label" >submit</label>&ndash;&gt;-->
+<!--                            &lt;!&ndash;                          <div class="col-md-8">&ndash;&gt;-->
+<!--                            &lt;!&ndash;                              <input type="text" id="submit" class="btn btn-outline-warningn btn-block">&ndash;&gt;-->
+<!--                            &lt;!&ndash;                          </div>&ndash;&gt;-->
+<!--                        </form>-->
+
+<!--                    </div>-->
+<!--                    <div class="modal-footer">-->
+<!--                        <button type="button" class=" btn btn-outline-primary">submit</button>-->
+<!--                        <button type="button" class="btn btn-danger" data-dismiss="">close</button>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+
+
+<!--        </div>-->
+
+<!--        <div class="modal fade" data-backdrop="static" data-keyboard="false"  id="modal">-->
+<!--            <div class="modal-dialog modal-dialog-centered modal-scrollbar-measure">-->
+<!--                <div class="modal-content">-->
+<!--                    <div class="modal-header">-->
+<!--                        <h3 class="modal-title">Registration Form</h3>-->
+<!--                        <button type="button" class="close" data-dismiss="modal">-->
+<!--                            <span>$times;</span>-->
+<!--                        </button>-->
+<!--                    </div>-->
+<!--                    <div class="modal-body">-->
+<!--                        <form action="">-->
+<!--                            <div class="form-group row">-->
+<!--                                <label for="name" class="col-md-4 col-form-label">fullname</label>-->
+<!--                                <div class="col-md-8">-->
+<!--                                    <input type="text" id="name" class="form-control">-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="form-group row">-->
+<!--                                <label for="email" class="col-md-4 col-form-label">EMAIL</label>-->
+<!--                                <div class="col-md-8">-->
+<!--                                    <input type="text" id="email" class="form-control">-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="form-group row">-->
+<!--                                <label for="phone" class="col-md-4 col-form-label">phone</label>-->
+<!--                                <div class="col-md-8">-->
+<!--                                    <input type="number" id="phone" class="form-control">-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="form-group row">-->
+<!--                                <label for="password" class="col-md-4 col-form-label">password</label>-->
+<!--                                <div class="col-md-8">-->
+<!--                                    <input type="text" id="password" class="form-control">-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="form-group row">-->
+<!--                                <label for="address" class="col-md-4 col-form-label">address</label>-->
+<!--                                <div class="col-md-8">-->
+<!--                                    <input type="text" id="address" class="form-control">-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            &lt;!&ndash;                      <div class="form-group row">&ndash;&gt;-->
+<!--                            &lt;!&ndash;                          <label for="submit" class="col-md-4 col-form-label" >submit</label>&ndash;&gt;-->
+<!--                            &lt;!&ndash;                          <div class="col-md-8">&ndash;&gt;-->
+<!--                            &lt;!&ndash;                              <input type="text" id="submit" class="btn btn-outline-warningn btn-block">&ndash;&gt;-->
+<!--                            &lt;!&ndash;                          </div>&ndash;&gt;-->
+<!--                        </form>-->
+
+<!--                    </div>-->
+<!--                    <div class="modal-footer">-->
+<!--                        <button type="button" class=" btn btn-outline-primary">submit</button>-->
+<!--                        <button type="button" class="btn btn-danger" data-dismiss="">close</button>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+
+
+<!--        </div>-->
+
+<!--        <section>-->
+<!--            <div class="container">-->
+<!--                <div class="row">-->
+<!--                    <div class="col-md-12">-->
+<!--                        <div>-->
+<!--                           <ul class="nav nav-tabs">-->
+<!--                               <li><a href=""></a>arif</li>-->
+<!--                               <li><a href=""></a>shila</li>-->
+<!--                               <li><a href=""></a>abc</li>-->
+<!--                               <li><a href="">we</a></li>-->
+<!--                           </ul>-->
+<!--                            <div class="tab-container">-->
+<!--                                <div class="tab-pane fade" id="arif">-->
+<!--                                    <p class="text-justify">-->
+<!--                                        মনোনয়ন প্রত্যাহারের জন্য রেজাউলের ওপর চট্টগ্রাম-১৫ (সাতকানিয়া-লোহাগাড়া) আসনের আওয়ামী লীগের সাংসদ আবু রেজা মুহাম্মদ-->
+<!--                                    </p>-->
+<!--                                </div>-->
+<!--                                <div class="tab-pane" id="abc">-->
+<!--                                    <p class="text-justify">-->
+<!--                                        মনোনয়ন প্রত্যাহারের জন্য রেজাউলের ওপর চট্টগ্রাম-১৫ (সাতকানিয়া-লোহাগাড়া) আসনের আওয়ামী লীগের সাংসদ আবু রেজা মুহাম্মদ-->
+<!--                                    </p>-->
+<!--                                </div>-->
+<!--                                <div class="tab-pane" id="shila">-->
+<!--                                    <p class="text-justify">-->
+<!--                                        মনোনয়ন প্রত্যাহারের জন্য রেজাউলের ওপর চট্টগ্রাম-১৫ (সাতকানিয়া-লোহাগাড়া) আসনের আওয়ামী লীগের সাংসদ আবু রেজা মুহাম্মদ-->
+<!--                                    </p>-->
+
+<!--                                </div>-->
+<!--                                <div class="tab-pane" id="we">-->
+<!--                                    <p class="text-justify">-->
+<!--                                        মনোনয়ন প্রত্যাহারের জন্য রেজাউলের ওপর চট্টগ্রাম-১৫ (সাতকানিয়া-লোহাগাড়া) আসনের আওয়ামী লীগের সাংসদ আবু রেজা মুহাম্মদ-->
+<!--                                    </p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </section>-->
+  <section class="py-5">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-8">
+                  <div class="card card-body">
+                      <ul class="nav nav-pills">
+                          <li><a href="#home" class="nav-link active" data-toggle="pill">Home</a></li>
+                          <li><a href="#about" class="nav-link" data-toggle="pill">About</a></li>
+                          <li><a href="#contract" class="nav-link" data-toggle="pill">Contract</a></li>
+                      </ul>
+                      <div class="tab-content">
+                          <div class="tab-pane fade show active" id="home">
+                              <h1 class="text-center">This is home page</h1>
+                              <p>
+                                  রায় ঘোষণার সময় দুই আসামি প্রদীপ ও লিয়াকত ছিলেন নির্বিকার। আদালত থেকে কারাগারে ফেরার পথেও তাঁরা কোনো কথা বলেননি।
+                              </p>
+                          </div>
+                          <div class="tab-pane fade" id="about">
+                              <p>
+                                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam atque consectetur deserunt doloremque eos illum laborum natus nihil, nostrum porro provident recusandae totam voluptate. Amet commodi inventore vel veritatis. Temporibus.
+                              </p>
+                          </div>
+                          <div class="tab-pane fade " id="contract">
+                              <p>
+                                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam atque consectetur deserunt doloremque eos illum laborum natus nihil, nostrum porro provident recusandae totam voluptate. Amet commodi inventore vel veritatis. Temporibus.
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+<section class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="accordion id="accordiondiv">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5 class="mb-0">
+                                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-terget="#username">what is your name</button>
+                            </h5>
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias consequatur dolorum eaque eligendi eum excepturi facere itaque odio officia possimus praesentium, repudiandae tempora. Assumenda dicta facere illum voluptate. Deleniti, inventore.
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <h5 class="mb-0">
+                                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-terget="#useraddress">what is your address</button>
+                            </h5>
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias consequatur dolorum eaque eligendi eum excepturi facere itaque odio officia possimus praesentium, repudiandae tempora. Assumenda dicta facere illum voluptate. Deleniti, inventore.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <h5 class="mb-0">
+                                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-terget="#username">what is your name</button>
+                            </h5>
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias consequatur dolorum eaque eligendi eum excepturi facere itaque odio officia possimus praesentium, repudiandae tempora. Assumenda dicta facere illum voluptate. Deleniti, inventore.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+            <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/bootstrap.bundle.js"></script>
+
+</body>
+
+</html>
